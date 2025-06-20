@@ -79,7 +79,7 @@ async function generateTitles() {
         displayTitleOptions(titles);
         showStep(2);
         
-        alert('AIによる生成に失敗しました。サンプルタイトルを表示しています。');
+        alert('AIによる生成が利用できません。サンプルタイトルを表示しています。\n※クレジット不足またはネットワークエラーです。');
     }
 }
 
@@ -215,7 +215,7 @@ async function generateContent() {
         displayContentPreview(content);
         renderTable(['見出し', 'サブタイトル', '本文'], content);
         
-        alert('AIによる生成に失敗しました。サンプル内容を表示しています。');
+        alert('AIによる生成が利用できません。サンプル内容を表示しています。\n※クレジット不足またはネットワークエラーです。');
     }
 }
 
